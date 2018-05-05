@@ -10,7 +10,8 @@ setup(
     version='0.0.1',
     description='Word Mover Distance method for text field',
     packages=['dedupe.variables'],
-    install_requires=['gensim==1.0.1',
+    install_requires=['dedupe',
+                      'gensim==1.0.1',
                       'pyemd==0.4.4'],
     license='The MIT License: http://www.opensource.org/licenses/mit-license.php'
     )
